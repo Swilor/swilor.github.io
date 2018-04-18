@@ -11,59 +11,7 @@
     <link href="https://fonts.googleapis.com/css?family=Crimson+Text|Roboto+Slab" rel="stylesheet">
     <!-- //////NEED FOR ZURB - EDIT FILEPATHS////// -->
     <style media="screen">
-      main {
-        background-color: #EAE5E5;
-      }
-      section{
-        margin-bottom: 10px;
-      }
-      h1{
-        font-family: 'Pacifico', cursive;
-        padding-top: 80px;
-      }
-      .back{
-        height: 500px;
-        width: 1200px;
-      }
-        ul{
-          list-style: none;
-        }
-        li{
-          display: inline;
-        }
-        .navstyle{
-          padding-left: 20px;
-          padding-right: 20px;
-          font-family: 'Crimson Text', serif;
-        }
-        .navborder2{
-          padding-left: 70px;
-        }
-        nav a:link, nav a:visited {
-        color: rgb(0,0,0);
-        }
-        nav a:hover{
-        color:lightblue;
-        }
-        .portrait{
-        margin-top: 80px;
-        }
-        .hello{
-          margin-top: 50px;
-          font-size: 3em;
-          font-family: 'Roboto Slab', serif;
 
-        }
-        .dropdowncolor{
-          background-color: white;
-        }
-        .welcome{
-          font-family: 'Roboto Slab', serif;
-          font-size: 2em;
-        }
-        h5, h3{
-          font-family: 'Roboto Slab', serif;
-        }
     </style>
   </head>
 
@@ -94,14 +42,15 @@
           </nav>
     <!-- ////// ZURB RESPONSIVE NAV BAR  ///// -->
     <header class="grid-x grid-margin-x grid-padding-x">
+    <h1> Changes based on day and time</h1>
+  </header>
       <section class="grid-x">
-        <div class="large-6 cell">
+        <div class="large-6 cell large-offset-3">
           <h2 id="time"></h2>
           <h3 id="demo"></h3>
 
         </div>
     </section>
-    </header>
 
 
   </main>
@@ -111,6 +60,8 @@
     <script src="zurb/js/vendor/what-input.js"></script>
     <script src="zurb/js/vendor/foundation.js"></script>
     <script src="zurb/js/app.js"></script>
+    <script src="js/changes.js"></script>
+
     <!-- //////NEED FOR ZURB - EDIT FILEPATHS////// -->
   </body>
 </html>
