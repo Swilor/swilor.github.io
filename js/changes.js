@@ -162,6 +162,6 @@ console.log (min);
 //http://www.w3schools.com/jsref/met_document_getelementbyid.asp
 
 document.getElementById("today").innerHTML =
-  n + ", " + dateNum +" " + m + " " + d.getFullYear();
+  n + ", " + dateNum +" " + m + " " + d.getFullYear()+" "+ hour + ":" + min +" "+ amPm;;
 
-document.getElementById("time2").innerHTML = hour + ":" + min + amPm;
+//document.getElementById("time2").innerHTML = hour + ":" + min +" "+ amPm;
