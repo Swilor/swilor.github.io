@@ -1,0 +1,24 @@
+section{
+  width:1600px;
+  margin:0 auto;
+  position:relative;
+}
+
+
+div.lyrics1 {
+  width: 300px;
+  height: 300px;
+  border: 4px solid black;
+  background-color: white;
+  position: absolute;
+  margin-left: 0px;
+}
+
+
+p.line1 {
+  font-size: 30px;
+  font-family: 'Josefin Slab', serif;
+  text-align: center;
+  margin:0 auto;
+  padding-bottom:30px;
+}
