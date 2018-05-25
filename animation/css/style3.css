@@ -1,0 +1,84 @@
+section{
+  width:1600px;
+  margin:0 auto;
+  position:relative;
+}
+
+div.lyrics3 {
+  width: 300px;
+  height: 300px;
+  border: 4px solid black;
+  background-color: white;
+  position: absolute;
+  margin-left: 0px;
+}
+
+
+p.line10 {
+  font-size: 25px;
+  font-family: 'Josefin Slab', serif;
+  text-align: center;
+  margin:0 auto;
+  padding-bottom:30px;
+  padding-top:10px;
+}
+
+  .container{
+    position:absolute;
+    margin-left: 400px;
+    -webkit-animation: movement 5s infinite; /* Chrome, Safari, Opera */
+    -webkit-animation-direction: alternate; /* Chrome, Safari, Opera */
+    animation: movement 5s infinite alternate;
+  }
+  .girl {
+    width: 225px;
+    height: 360px;
+    position: relative;
+    background-image: url("http://pixelartmaker.com/art/add3efa6331ec10.png");
+
+
+    -webkit-animation: play .8s steps(4) infinite;
+       -moz-animation: play .8s steps(4) infinite;
+        -ms-animation: play .8s steps(4) infinite;
+         -o-animation: play .8s steps(4) infinite;
+            animation: play 1s steps(4) infinite;
+}
+
+@-webkit-keyframes play {
+   from { background-position:    -15px; }
+     to { background-position: -915px; }
+}
+
+@-moz-keyframes play {
+   from { background-position:    -15px; }
+     to { background-position: -915px; }
+}
+
+@-ms-keyframes play {
+   from { background-position:    -15px; }
+     to { background-position: -915px; }
+}
+
+@-o-keyframes play {
+   from { background-position:    -15px; }
+     to { background-position: -915px; }
+}
+
+@keyframes play {
+   from { background-position:    -15px; }
+     to { background-position: -915px; }
+}
+
+@-webkit-keyframes movement {
+  0%   {left: 0px; top: 0px;}
+  33%  {left: 600px; top: 0px;}
+  66%  {left: 600px; top: 600px;}
+  100%  {left: 0px; top: 600px;}
+}
+
+@keyframes movement {
+  0%   {left: 0px; top: 0px;}
+  33%  {left: 600px; top: 0px;}
+  66%  {left: 600px; top: 600px;}
+  100%  {left: 0px; top: 600px;}
+}
