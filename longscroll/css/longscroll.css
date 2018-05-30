@@ -1,9 +1,32 @@
 body{
-  background:linear-gradient(to bottom, #938b71 0%,#bcb298 20%,#ff814b 41%,#ffd687 61%,#bebebe 81%,#bebebe 100%);
+  background:url('../img/grass.png') 0px 700px repeat-x,
+  linear-gradient(to bottom, #87e0fd 0%,#938b71 8%,#bcb298 20%,#ff814b 41%,#ffd687 61%,#bebebe 81%,#bebebe 100%);
+  height:10000px;
 }
 
+#measurement{
+  height:100px;
+  width:100px;
+  margin:0 auto;
+  border:1px solid red;
+  left:100px;
+  top:600px;
+  position: fixed;
+  line-height:50px;
+  text-align:center;
+}
+
+.depthscale{
+  height:9300px;
+  width:50px;
+  position: absolute;
+  top:700px;
+  left:0px;
+  background-image:url('../img/depthscale.png');
+  background-repeat: repeat-y;
+}
 #stage1{
-  height:10000px;
+  height:1000px;
   width:1200px;
   margin:0 auto;
   border:1px solid red;
@@ -40,6 +63,8 @@ body{
   position: absolute;
   top:500px;
   left:30px;
+  line-height: 50px;
+  text-align: center;
 }
 
 #img_arrow{
@@ -51,9 +76,51 @@ body{
   left:150px;
   -webkit-animation: float 2s infinite;
 }
+.character1{
+  width:115px;
+  height:200px;
+  position: absolute;
+  top:700px;
+  right:200px;
+  background-image: url('../img/spritesheet1.png');
+  animation: play 2s steps(5) infinite;
+}
 
+#stage2{
+  height:1500px;
+  width:1200px;
+  margin:0 auto;
+  border:1px solid red;
+  position:relative; /* this is important for submarine to be related */
+  overflow:hidden; /* use this to fade out the elements outside the container */
+  left:0;
+  bottom:0;
+}
+
+.dig{
+  height: 200px;
+  width: 60px;
+  position:absolute;
+  background-image: url('../img/dig.png');
+  top:-200px;
+  left:600px;
+  background-repeat:no-repeat;
+}
+#textbox1{
+  height: 300px;
+  width: 300px;
+  border:1px solid red;
+  position: absolute;
+  top:500px;
+  left:-350px;
+}
 @keyframes float{
   50%{
     transform: translate(0,-10px);
   }
+}
+
+@keyframes play{
+  from{background-position: -580px;}
+  to  {background-position: 0px;}
 }
