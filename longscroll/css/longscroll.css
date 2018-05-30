@@ -68,6 +68,8 @@ body{
 }
 
 #img_arrow{
+  background-image: url('../img/arrow.png');
+  background-repeat: no-repeat;
   height:100px;
   width:50px;
   border:1px solid blue;
