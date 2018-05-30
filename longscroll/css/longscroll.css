@@ -1,0 +1,59 @@
+body{
+  background:linear-gradient(to bottom, #938b71 0%,#bcb298 20%,#ff814b 41%,#ffd687 61%,#bebebe 81%,#bebebe 100%);
+}
+
+#stage1{
+  height:10000px;
+  width:1200px;
+  margin:0 auto;
+  border:1px solid red;
+  position:relative; /* this is important for submarine to be related */
+  overflow:hidden; /* use this to fade out the elements outside the container */
+  left:0;
+  bottom:0;
+}
+
+#img_earth{
+  height:400px;
+  width:400px;
+  border:1px solid blue;
+  margin:0 auto;
+  top:50px;
+  position: relative;
+  -webkit-animation: float 4s infinite ease-in-out;
+}
+
+#title{
+  height:200px;
+  width:600px;
+  border:1px solid red;
+  margin-left: 300px;
+  position: absolute;
+  line-height:50px;    /* need both to center something inside a box */
+  text-align:center;  /* need both to center something inside a box */
+}
+
+#scroll{
+  height:50px;
+  width:100px;
+  border:1px solid red;
+  position: absolute;
+  top:500px;
+  left:30px;
+}
+
+#img_arrow{
+  height:100px;
+  width:50px;
+  border:1px solid blue;
+  position: absolute;
+  top:470px;
+  left:150px;
+  -webkit-animation: float 2s infinite;
+}
+
+@keyframes float{
+  50%{
+    transform: translate(0,-10px);
+  }
+}
