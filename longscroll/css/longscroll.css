@@ -114,6 +114,65 @@ body{
   top:500px;
   left:-350px;
 }
+
+#stage3{
+  height:4500px;
+  width:1200px;
+  margin:0 auto;
+  border:1px solid red;
+  position:relative; /* this is important for submarine to be related */
+  overflow:hidden; /* use this to fade out the elements outside the container */
+  left:0;
+  bottom:0;
+}
+.character2{
+  height: 106px;
+  width: 33px;
+  position:absolute;
+  background-image: url('../img/streetboy.png');
+  top:-200px;
+  left:600px;
+  background-repeat:no-repeat;
+}
+
+#textbox2{
+  height: 300px;
+  width: 300px;
+  border:1px solid red;
+  position: absolute;
+  top:300px;
+  right:-350px;
+}
+
+#textbox3{
+  height: 300px;
+  width: 300px;
+  border:1px solid red;
+  position: absolute;
+  top:2000px;
+  left:-350px;
+}
+
+#textbox4{
+  height: 300px;
+  width: 300px;
+  border:1px solid red;
+  position: absolute;
+  top:3700px;
+  right:-350px;
+}
+
+#stage4{
+  height:2900px;
+  width:1200px;
+  margin:0 auto;
+  border:1px solid red;
+  position:relative; /* this is important for submarine to be related */
+  overflow:hidden; /* use this to fade out the elements outside the container */
+  left:0;
+  bottom:0;
+}
+
 @keyframes float{
   50%{
     transform: translate(0,-10px);

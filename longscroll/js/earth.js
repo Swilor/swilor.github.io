@@ -35,11 +35,33 @@ window.onscroll = function(){
     dig1.style.top=fromTop-700+"px";
   }
 
-  if(fromTop>800 && fromTop<=1200){
+  if(fromTop>700 && fromTop<=1200){
     textbox1.style.left=fromTop-1000+"px";
   }
 
   if(fromTop>1400 && fromTop<=1800){
     textbox1.style.left=(1500-fromTop)*2+"px";
+  }
+
+  if(fromTop>1800){
+    dig2.style.top=fromTop-2132+"px";
+  }
+  if(fromTop>1900 && fromTop<=2400){
+    textbox2.style.right=fromTop-2200+"px";
+  }
+  if(fromTop>2600 && fromTop<=2900){
+    textbox2.style.right=(2700-fromTop)*2+"px";
+  }
+  if(fromTop>3600 && fromTop<=4200){
+    textbox3.style.left=fromTop-4000+"px";
+  }
+  if(fromTop>4400 && fromTop<=4700){
+    textbox3.style.left=(4500-fromTop)*2+"px";
+  }
+  if(fromTop>5200 && fromTop<=5800){
+    textbox4.style.right=fromTop-5600+"px";
+  }
+  if(fromTop>6000 && fromTop<=6300){
+    textbox4.style.right=(6100-fromTop)*2+"px";
   }
 }
