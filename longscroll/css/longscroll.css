@@ -30,7 +30,7 @@ body{
   width:1200px;
   margin:0 auto;
   border:1px solid red;
-  position:relative; /* this is important for submarine to be related */
+  position:relative; /* this is important for container to be related */
   overflow:hidden; /* use this to fade out the elements outside the container */
   left:0;
   bottom:0;
@@ -91,7 +91,7 @@ body{
   width:1200px;
   margin:0 auto;
   border:1px solid red;
-  position:relative; /* this is important for submarine to be related */
+  position:relative; /* this is important for container to be related */
   overflow:hidden; /* use this to fade out the elements outside the container */
   left:0;
   bottom:0;
@@ -120,7 +120,7 @@ body{
   width:1200px;
   margin:0 auto;
   border:1px solid red;
-  position:relative; /* this is important for submarine to be related */
+  position:relative; /* this is important for container to be related */
   overflow:hidden; /* use this to fade out the elements outside the container */
   left:0;
   bottom:0;
