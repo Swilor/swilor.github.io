@@ -1,21 +1,49 @@
 body{
   background:url('../img/grass.png') 0px 700px repeat-x,
-  linear-gradient(to bottom, #87e0fd 0%,#938b71 8%,#bcb298 20%,#ff814b 41%,#ffd687 61%,#bebebe 81%,#bebebe 100%);
-  height:10000px;
+  linear-gradient(to bottom, #87e0fd 0%,#938b71 8%,#bcb298 20%,#ff814b 41%,#ffd687 61%,#bebebe 81%);
+  height:10010px;
+  position: relative;
 }
 
+h1,h2,h3,h4,h5{
+  font-family: 'Indie Flower', cursive;
+}
+.center{
+  line-height: 50px;
+  text-align: center;
+}
+p{
+  font-family: 'Lato', sans-serif;
+}
 #measurement{
   height:100px;
   width:100px;
   margin:0 auto;
-  border:1px solid red;
-  left:100px;
-  top:600px;
+  /* border:1px solid red; */
+  left:150px;
+  top:690px;
   position: fixed;
   line-height:50px;
   text-align:center;
+  font-family: 'Indie Flower', cursive;
+  z-index: 10;
 }
-
+.urnow{
+  left:150px;
+  top:670px;
+  position: fixed;
+  font-family: 'Indie Flower', cursive;
+  z-index: 10;
+}
+.leftbox{
+  height:300px;
+  width:300px;
+  position: fixed;
+  left:50px;
+  top:550px;
+  background-image: url('../img/textbox4.png');
+  z-index: 0;
+}
 .depthscale{
   height:9300px;
   width:50px;
@@ -35,14 +63,22 @@ body{
   background-image:url('../img/texture.png');
   background-repeat: repeat-x repeat-y;
 }
-
+.texture2{
+  height:4000px;
+  width:100%;
+  position: absolute;
+  bottom:1000px;
+  background-image:url('../img/texture2.jpg');
+  background-repeat: repeat-x repeat-y;
+  z-index: -100;
+}
 .tunneltop1{
 height:228px;
 width:136px;
 position: relative;
 background-image:url('../img/tunneltop.png');
 margin:0 auto;
-bottom:-590px;
+bottom:-595px;
 z-index: 90;
 }
 
@@ -56,19 +92,20 @@ z-index: 90;
   }
 
   .tunnelmid{
-  height:5528px;
+  height:7528px;
   width:136px;
   position: relative;
   background-image:url('../img/tunnelmid.png');
   margin:0 auto;
   top:-35px;
+  z-index: 60;
   }
 
 #stage1{
   height:1010px;
   width:1200px;
   margin:0 auto;
-  border:1px solid red;
+  /* border:1px solid red; */
   position:relative; /* this is important for container to be related */
   overflow:hidden; /* use this to fade out the elements outside the container */
   left:0;
@@ -139,7 +176,7 @@ z-index: 90;
   height:1500px;
   width:1200px;
   margin:0 auto;
-  border:1px solid red;
+  /* border:1px solid red; */
   position:relative; /* this is important for container to be related */
   overflow:hidden; /* use this to fade out the elements outside the container */
   left:0;
@@ -159,17 +196,77 @@ z-index: 90;
 #textbox1{
   height: 300px;
   width: 300px;
-  border:1px solid red;
+  /* border:1px solid red; */
   position: absolute;
   top:500px;
   left:-350px;
+  background-image: url('../img/textbox1.png');
+}
+
+.t11{
+font-family: 'Indie Flower', cursive;
+font-size: 30px;
+top:35px;
+left:60px;
+position: relative;
+color:darkorange;
+}
+.t12{
+  font-family: 'Lato', sans-serif;
+  position: relative;
+  left:55px;
+}
+
+.line11{
+  background-color: lightblue;
+  width:100px;
+  height:5px;
+  position: absolute;
+  top:540px;
+  left:650px;
+  z-index: 30;
+}
+.depth1{
+  background-color: lightblue;
+  width:80px;
+  height:80px;
+  position: absolute;
+  top:500px;
+  left:700px;
+  z-index: 30;
+  line-height: 10px;
+  text-align: center;
+
+}
+
+.line12{
+  background-color: rgb(255, 106, 20);
+  width:100px;
+  height:5px;
+  position: absolute;
+  top:740px;
+  left:650px;
+  z-index: 30;
+}
+.tem1{
+  background-color:rgb(255, 106, 20);
+  width:160px;
+  height:80px;
+  position: absolute;
+  top:700px;
+  left:700px;
+  z-index: 30;
+  line-height: 10px;
+  text-align: center;
+  text-decoration-color: white;
+
 }
 
 #stage3{
-  height:4500px;
+  height:6500px;
   width:1200px;
   margin:0 auto;
-  border:1px solid red;
+  /* border:1px solid red; */
   position:relative; /* this is important for container to be related */
   overflow:hidden; /* use this to fade out the elements outside the container */
   left:0;
@@ -189,44 +286,250 @@ z-index: 90;
 #textbox2{
   height: 300px;
   width: 300px;
-  border:1px solid red;
+  /* border:1px solid red; */
   position: absolute;
   top:300px;
   right:-350px;
+  background-image: url('../img/textbox2.png');
+}
+.t21{
+font-family: 'Indie Flower', cursive;
+font-size: 30px;
+top:20px;
+left:100px;
+position: relative;
+color:darkorange;
+}
+.t22{
+  font-family: 'Lato', sans-serif;
+  position: relative;
+  left:60px;
+  top:-13px;
 }
 
+.line21{
+  background-color: lightblue;
+  width:100px;
+  height:5px;
+  position: absolute;
+  top:340px;
+  left:450px;
+  z-index: 30;
+}
+.depth2{
+  background-color: lightblue;
+  width:80px;
+  height:80px;
+  position: absolute;
+  top:300px;
+  left:420px;
+  z-index: 30;
+  line-height: 10px;
+  text-align: center;
+
+}
+
+.line22{
+  background-color: rgb(255, 106, 20);
+  width:100px;
+  height:5px;
+  position: absolute;
+  top:540px;
+  left:450px;
+  z-index: 30;
+}
+.tem2{
+  background-color:rgb(255, 106, 20);
+  width:160px;
+  height:80px;
+  position: absolute;
+  top:500px;
+  left:340px;
+  z-index: 30;
+  line-height: 10px;
+  text-align: center;
+  text-decoration-color: white;
+
+}
 #textbox3{
   height: 300px;
   width: 300px;
-  border:1px solid red;
+  /* border:1px solid red; */
   position: absolute;
   top:2000px;
   left:-350px;
+  background-image: url('../img/textbox3.png');
+}
+
+.t31{
+font-family: 'Indie Flower', cursive;
+font-size: 30px;
+top:58px;
+left:90px;
+position: relative;
+color:darkorange;
+}
+.t32{
+  font-family: 'Lato', sans-serif;
+  position: relative;
+  left:55px;
+  top:30px;
+}
+
+.line31{
+  background-color: lightblue;
+  width:100px;
+  height:5px;
+  position: absolute;
+  top:2040px;
+  left:650px;
+  z-index: 30;
+}
+.depth3{
+  background-color: lightblue;
+  width:80px;
+  height:80px;
+  position: absolute;
+  top:2000px;
+  left:700px;
+  z-index: 30;
+  line-height: 10px;
+  text-align: center;
+
+}
+
+.line32{
+  background-color: rgb(255, 106, 20);
+  width:100px;
+  height:5px;
+  position: absolute;
+  top:2240px;
+  left:650px;
+  z-index: 30;
+}
+.tem3{
+  background-color:rgb(255, 106, 20);
+  width:160px;
+  height:80px;
+  position: absolute;
+  top:2200px;
+  left:700px;
+  z-index: 30;
+  line-height: 10px;
+  text-align: center;
+  text-decoration-color: white;
+
 }
 
 #textbox4{
   height: 300px;
   width: 300px;
-  border:1px solid red;
+  /* border:1px solid red; */
   position: absolute;
   top:3700px;
   right:-350px;
+  background-image: url('../img/textbox5.png');
+}
+.t41{
+font-family: 'Indie Flower', cursive;
+font-size: 30px;
+top:40px;
+left:50px;
+position: relative;
+color:darkred;
+}
+.t42{
+  font-family: 'Lato', sans-serif;
+  position: relative;
+  left:55px;
+  top:0px;
+}
+
+.line41{
+  background-color: lightblue;
+  width:100px;
+  height:5px;
+  position: absolute;
+  top:3790px;
+  left:450px;
+  z-index: 30;
+}
+.depth4{
+  background-color: lightblue;
+  width:80px;
+  height:80px;
+  position: absolute;
+  top:3750px;
+  left:420px;
+  z-index: 30;
+  line-height: 10px;
+  text-align: center;
+
+}
+
+.line42{
+  background-color: rgb(255, 106, 20);
+  width:100px;
+  height:5px;
+  position: absolute;
+  top:3990px;
+  left:450px;
+  z-index: 30;
+}
+.tem4{
+  background-color:rgb(255, 106, 20);
+  width:160px;
+  height:80px;
+  position: absolute;
+  top:3950px;
+  left:340px;
+  z-index: 30;
+  line-height: 10px;
+  text-align: center;
+  text-decoration-color: white;
+
+}
+
+#innercore{
+  width:2000px;
+  position:absolute;
+  top: 7000px;
+  z-index: -100;
 }
 
 #stage4{
-  height:2900px;
+  height:1000px;
   width:1200px;
   margin:0 auto;
-  border:1px solid red;
+  /* border:1px solid red; */
   position:relative; /* this is important for submarine to be related */
   overflow:hidden; /* use this to fade out the elements outside the container */
   left:0;
   bottom:0;
 }
-
+.pipe{
+  width: 200px;
+  height:200px;
+  background-image: url('../img/pipe.png');
+  background-repeat: no-repeat;
+  position: relative;
+  margin:0 auto;
+  left:30px;
+  z-index: -5;
+}
+.india{
+  width: 1200px;
+  height:500px;
+  background-image: url('../img/india.png');
+  background-repeat: no-repeat;
+  position: relative;
+  margin:0 auto;
+  left:100px;
+  z-index: -1;
+}
 @keyframes float{
   50%{
-    transform: translate(0,-10px);
+    transform: translate(0,-15px);
   }
 }
 

@@ -20,7 +20,7 @@ var i=0;
 window.onscroll = function(){
   var fromTop = window.pageYOffset;
   depth=fromTop*0.4
-  measurement.innerHTML = fromTop + "px" +" " +depth + "km";
+  measurement.innerHTML = fromTop + "px";
 
   if(fromTop>0 && fromTop<400){
   jumpX=fromTop*0.92;
