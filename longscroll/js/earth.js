@@ -23,7 +23,7 @@ window.onscroll = function(){
   measurement.innerHTML = fromTop + "px" +" " +depth + "km";
 
   if(fromTop>0 && fromTop<400){
-  jumpX=fromTop*0.8;
+  jumpX=fromTop*0.92;
   jump.style.right=200+jumpX+"px";
   }
   if(fromTop>400 && fromTop<800){
@@ -32,7 +32,7 @@ window.onscroll = function(){
   }
 
   if(fromTop>450){
-    dig1.style.top=fromTop-700+"px";
+    dig1.style.top=fromTop-800+"px";
   }
 
   if(fromTop>700 && fromTop<=1200){
@@ -44,7 +44,7 @@ window.onscroll = function(){
   }
 
   if(fromTop>1800){
-    dig2.style.top=fromTop-2132+"px";
+    dig2.style.top=fromTop-2302+"px";
   }
   if(fromTop>1900 && fromTop<=2400){
     textbox2.style.right=fromTop-2200+"px";

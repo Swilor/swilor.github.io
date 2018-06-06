@@ -25,8 +25,47 @@ body{
   background-image:url('../img/depthscale.png');
   background-repeat: repeat-y;
 }
+
+.texture{
+  height:9000px;
+  width:100%;
+  position: absolute;
+  top:1020px;
+  left:0px;
+  background-image:url('../img/texture.png');
+  background-repeat: repeat-x repeat-y;
+}
+
+.tunneltop1{
+height:228px;
+width:136px;
+position: relative;
+background-image:url('../img/tunneltop.png');
+margin:0 auto;
+bottom:-590px;
+z-index: 90;
+}
+
+  .tunneltop2{
+  height:228px;
+  width:136px;
+  position: relative;
+  background-image:url('../img/tunneltop.png');
+  margin:0 auto;
+  top:-35px;
+  }
+
+  .tunnelmid{
+  height:5528px;
+  width:136px;
+  position: relative;
+  background-image:url('../img/tunnelmid.png');
+  margin:0 auto;
+  top:-35px;
+  }
+
 #stage1{
-  height:1000px;
+  height:1010px;
   width:1200px;
   margin:0 auto;
   border:1px solid red;
@@ -37,34 +76,41 @@ body{
 }
 
 #img_earth{
-  height:400px;
+  height:401px;
   width:400px;
-  border:1px solid blue;
+  /* border:1px solid blue; */
   margin:0 auto;
   top:50px;
   position: relative;
+  background-image:url('../img/earth.png');
   -webkit-animation: float 4s infinite ease-in-out;
+  z-index: 20;
 }
 
 #title{
   height:200px;
   width:600px;
-  border:1px solid red;
+  /* border:1px solid red; */
   margin-left: 300px;
+  font-size: 80px;
+  font-family: 'Indie Flower', cursive;
   position: absolute;
-  line-height:50px;    /* need both to center something inside a box */
+  line-height:110px;    /* need both to center something inside a box */
   text-align:center;  /* need both to center something inside a box */
+  z-index: 30;
 }
 
 #scroll{
   height:50px;
   width:100px;
-  border:1px solid red;
+  /* border:1px solid red; */
   position: absolute;
   top:500px;
   left:30px;
   line-height: 50px;
   text-align: center;
+  font-size: 55px;
+  font-family: 'Indie Flower', cursive;
 }
 
 #img_arrow{
@@ -72,7 +118,7 @@ body{
   background-repeat: no-repeat;
   height:100px;
   width:50px;
-  border:1px solid blue;
+  /* border:1px solid blue; */
   position: absolute;
   top:470px;
   left:150px;
@@ -86,6 +132,7 @@ body{
   right:200px;
   background-image: url('../img/spritesheet1.png');
   animation: play 2s steps(5) infinite;
+  z-index: 100;
 }
 
 #stage2{
@@ -100,13 +147,14 @@ body{
 }
 
 .dig{
-  height: 200px;
-  width: 60px;
+  height:1000px;
+  width: 300px;
   position:absolute;
-  background-image: url('../img/dig.png');
+  background-image: url('../img/car.png');
   top:-200px;
-  left:600px;
+  left:550px;
   background-repeat:no-repeat;
+  z-index: 100;
 }
 #textbox1{
   height: 300px;
@@ -128,13 +176,14 @@ body{
   bottom:0;
 }
 .character2{
-  height: 106px;
-  width: 33px;
+  height:1000px;
+  width: 300px;
   position:absolute;
-  background-image: url('../img/streetboy.png');
+  background-image: url('../img/car.png');
   top:-200px;
-  left:600px;
+  left:550px;
   background-repeat:no-repeat;
+  z-index: 100;
 }
 
 #textbox2{
