@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+<head></head>
+<body>
+<script src="js/processing.js"></script>
+<script type="text/processing" data-processing-target="processing-canvas">
+      int count=0;
+      void setup(){
+      size(400,400);
+      }
+      void draw(){
+      }
+      void mousePressed(){
+      background(0);
+      count++;
+      textSize(50);
+      text(count,mouseX,mouseY);
+      }
+</script>
+<canvas id="processing-canvas"> </canvas>
+</body>
+</html>
