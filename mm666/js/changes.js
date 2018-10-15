@@ -7,7 +7,7 @@
 
 
 
-  var day = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+  var day = ["星期日", "星期一", "星期二", "星期三", "星期四", "星期五", "星期六"];
 
 
 
@@ -25,29 +25,29 @@ console.log("month number: " + d.getMonth());
 
 var month = []; // modern way of writing: var month =new Array();
 
-month[0] = "January";
+month[0] = "一月";
 
-month[1] = "February";
+month[1] = "二月";
 
-month[2] = "March";
+month[2] = "三月";
 
-month[3] = "April";
+month[3] = "四月";
 
-month[4] = "May";
+month[4] = "五月";
 
-month[5] = "June";
+month[5] = "六月";
 
-month[6] = "July";
+month[6] = "七月";
 
-month[7] = "August";
+month[7] = "八月";
 
-month[8] = "September";
+month[8] = "九月";
 
-month[9] = "October";
+month[9] = "十月";
 
-month[10] = "November";
+month[10] = "十一月";
 
-month[11] = "December";
+month[11] = "十二月";
 
 
 
