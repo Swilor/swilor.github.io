@@ -1,0 +1,303 @@
+{
+  "status": "success",
+  "data1": {
+    "city": "San Francisco",
+    "state": "California",
+    "country": "USA",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -122.3978,
+        37.7658
+      ]
+    },
+    "current": {
+      "weather": {
+        "ts": "2018-11-24T23:00:00.000Z",
+        "hu": 82,
+        "ic": "02d",
+        "pr": 1017,
+        "tp": 16,
+        "wd": 330,
+        "ws": 6.2
+      },
+      "pollution": {
+        "ts": "2018-11-24T23:00:00.000Z",
+        "aqius": 27,
+        "mainus": "o3",
+        "aqicn": 21,
+        "maincn": "o3"
+      }
+    }
+  },
+  "data2": {
+    "city": "Santa Rosa",
+    "state": "California",
+    "country": "USA",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -122.805798,
+        38.510803
+      ]
+    },
+    "current": {
+      "weather": {
+        "ts": "2018-11-24T23:00:00.000Z",
+        "hu": 77,
+        "ic": "02d",
+        "pr": 1016,
+        "tp": 17,
+        "wd": 280,
+        "ws": 3.1
+      },
+      "pollution": {
+        "ts": "2018-11-24T23:00:00.000Z",
+        "aqius": 36,
+        "mainus": "p2",
+        "aqicn": 12,
+        "maincn": "p2"
+      }
+    }
+  },
+  "data3": {
+    "city": "Napa",
+    "state": "California",
+    "country": "USA",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -122.295,
+        38.3108
+      ]
+    },
+    "current": {
+      "weather": {
+        "ts": "2018-11-24T23:00:00.000Z",
+        "hu": 77,
+        "ic": "02d",
+        "pr": 1016,
+        "tp": 17,
+        "wd": 280,
+        "ws": 3.1
+      },
+      "pollution": {
+        "ts": "2018-11-24T23:00:00.000Z",
+        "aqius": 26,
+        "mainus": "o3",
+        "aqicn": 20,
+        "maincn": "o3"
+      }
+    }
+  },
+  "data4": {
+    "city": "Oakland",
+    "state": "California",
+    "country": "USA",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -122.282402,
+        37.8148
+      ]
+    },
+    "current": {
+      "weather": {
+        "ts": "2018-11-24T23:00:00.000Z",
+        "hu": 82,
+        "ic": "02d",
+        "pr": 1017,
+        "tp": 17,
+        "wd": 330,
+        "ws": 6.2
+      },
+      "pollution": {
+        "ts": "2018-11-24T23:00:00.000Z",
+        "aqius": 22,
+        "mainus": "o3",
+        "aqicn": 18,
+        "maincn": "o3"
+      }
+    }
+  },
+  "data5": {
+    "city": "San Jose",
+    "state": "California",
+    "country": "USA",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -121.849892,
+        37.338202
+      ]
+    },
+    "current": {
+      "weather": {
+        "ts": "2018-11-24T23:00:00.000Z",
+        "hu": 65,
+        "ic": "04d",
+        "pr": 1016,
+        "tp": 16,
+        "wd": 340,
+        "ws": 4.6
+      },
+      "pollution": {
+        "ts": "2018-11-24T23:00:00.000Z",
+        "aqius": 17,
+        "mainus": "p2",
+        "aqicn": 6,
+        "maincn": "p2"
+      }
+    }
+  },
+  "data6": {
+    "city": "San Francisco",
+    "state": "California",
+    "country": "USA",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -122.3978,
+        37.7658
+      ]
+    },
+    "current": {
+      "weather": {
+        "ts": "2018-11-25T23:00:00.000Z",
+        "hu": 87,
+        "ic": "50d",
+        "pr": 1019,
+        "tp": 17,
+        "wd": 330,
+        "ws": 6.2
+      },
+      "pollution": {
+        "ts": "2018-11-25T23:00:00.000Z",
+        "aqius": 48,
+        "mainus": "p2",
+        "aqicn": 16,
+        "maincn": "p2"
+      }
+    }
+  },
+  "data7": {
+    "city": "Santa Rosa",
+    "state": "California",
+    "country": "USA",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -122.805798,
+        38.510803
+      ]
+    },
+    "current": {
+      "weather": {
+        "ts": "2018-11-25T23:00:00.000Z",
+        "hu": 56,
+        "ic": "01d",
+        "pr": 1019,
+        "tp": 19,
+        "wd": 290,
+        "ws": 3.1
+      },
+      "pollution": {
+        "ts": "2018-11-25T23:00:00.000Z",
+        "aqius": 15,
+        "mainus": "p2",
+        "aqicn": 5,
+        "maincn": "p2"
+      }
+    }
+  },
+  "data8": {
+    "city": "Napa",
+    "state": "California",
+    "country": "USA",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -122.295,
+        38.3108
+      ]
+    },
+    "current": {
+      "weather": {
+        "ts": "2018-11-25T23:00:00.000Z",
+        "hu": 56,
+        "ic": "01d",
+        "pr": 1019,
+        "tp": 18,
+        "wd": 290,
+        "ws": 3.1
+      },
+      "pollution": {
+        "ts": "2018-11-25T22:00:00.000Z",
+        "aqius": 17,
+        "mainus": "p2",
+        "aqicn": 6,
+        "maincn": "p2"
+      }
+    }
+  },
+  "data9": {
+    "city": "Oakland",
+    "state": "California",
+    "country": "USA",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -122.282402,
+        37.8148
+      ]
+    },
+    "current": {
+      "weather": {
+        "ts": "2018-11-25T23:00:00.000Z",
+        "hu": 87,
+        "ic": "50d",
+        "pr": 1019,
+        "tp": 17,
+        "wd": 330,
+        "ws": 6.2
+      },
+      "pollution": {
+        "ts": "2018-11-25T23:00:00.000Z",
+        "aqius": 32,
+        "mainus": "p2",
+        "aqicn": 12,
+        "maincn": "o3"
+      }
+    }
+  },
+  "data10": {
+    "city": "San Jose",
+    "state": "California",
+    "country": "USA",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -121.849892,
+        37.338202
+      ]
+    },
+    "current": {
+      "weather": {
+        "ts": "2018-11-25T23:00:00.000Z",
+        "hu": 87,
+        "ic": "50d",
+        "pr": 1019,
+        "tp": 17,
+        "wd": 330,
+        "ws": 6.2
+      },
+      "pollution": {
+        "ts": "2018-11-25T23:00:00.000Z",
+        "aqius": 26,
+        "mainus": "p2",
+        "aqicn": 9,
+        "maincn": "p2"
+      }
+    }
+  }
+}
